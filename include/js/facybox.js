@@ -282,9 +282,12 @@
     //TODO preload prev/next ?
     $('#facybox').find('.n, .close , .s, .w, .e, .nw, ne, sw, se').each(function() {
 		var img = new Image();
-		img.src = $(this).css('background-image').replace(/url\((.+)\)/, '$1');
+		
+    img.src = $(this).css('background-image');
+    img.src = img.src.replace('url(','').replace(')','');
+    //img.src = $(this).css('background-image').replace(/url\((.+)\)/, '$1');
 
-    console.log(img);
+    console.log(img.src);
     })
 	var img = new Image();
 	img.src = '/img/facybox/loading.gif';

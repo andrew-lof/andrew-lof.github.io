@@ -287,7 +287,7 @@
     img.src = img.replace('url(','').replace(')','');
     //img.src = $(this).css('background-image').replace(/url\((.+)\)/, '$1');
 
-    console.log(img.src);
+    console.log(img);
     })
 	var img = new Image();
 	img.src = '/img/facybox/loading.gif';

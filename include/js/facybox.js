@@ -272,26 +272,23 @@
 
     //if we did not autoload, so the user has just clicked the facybox and pre-loading is useless
     if(! $.facybox.settings.noAutoload){
-		preloadImages();
+		//preloadImages();
 	}
         $('#facybox .close').click($.facybox.close);
   }
 
   //preloads all the static facybox images
-  function preloadImages(){
-    //TODO preload prev/next ?
-    $('#facybox').find('.n, .close , .s, .w, .e, .nw, ne, sw, se').each(function() {
-		var img = new Image();
+ //  function preloadImages(){
+ //    //TODO preload prev/next ?
+ //    $('#facybox').find('.n, .close , .s, .w, .e, .nw, ne, sw, se').each(function() {
+	// 	var img = new Image();
 		
-    img = $(this).css('background-image');
-    img.src = img.replace('url(','').replace(')','');
-    //img.src = $(this).css('background-image').replace(/url\((.+)\)/, '$1');
-
-    console.log("cat"+img.src);
-    })
-	var img = new Image();
-	img.src = '/img/facybox/loading.gif';
-  }
+ //    img = $(this).css('background-image');
+ //    img.src = img.replace('url(','').replace(')','');
+ //    })
+	// var img = new Image();
+	// img.src = '/img/facybox/loading.gif';
+ //  }
 
   function makeBackwardsCompatible() {
     var $s = $.facybox.settings;

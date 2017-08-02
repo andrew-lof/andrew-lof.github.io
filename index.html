@@ -20,11 +20,39 @@
   <div class="wrap f14">
   
   <div class="fl pad_ten">
-      <div class="gallery_img"><a href="#info15" rel="facybox"><img src="/img/gallery/cibc.jpg" width="290" height="170" alt="Locktalk" /></a></div>
+      <div class="gallery_img"><a href="#info15" rel="facybox"><img src="/img/gallery/pointclickcare.jpg" width="290" height="170" alt="PointClickCare" /></a></div>
+      <div class="min_spacer"></div>
+      <strong>PointClickCare: </strong>Cloud-based EHR platform</div>
+    <div id="info15" style="display:none;">
+      <div class="more_info black"> <img src="/img/gallery/large/pointclickcare.jpg" width="700" height="420" alt="PointClickCare" />
+        <div class="top_shadow"></div>
+        <h4 class="blue a_black">PointClickCare : Cloud-based EHR platform</h4>
+        <div class="min_spacer"></div>
+        As the lead developer on the Demand Marketing Team, my primary focus was full stack development on PointClickCare customer facing sites.
+
+        <div class="div_line_thin"></div>
+        <ul class="skill">
+          <li>HTML5</li>
+          <li>CSS3/SASS/Bootstrap</li>
+          <li>Angular/JS/Jquery</li>
+        </ul>
+        <ul class="skill">
+          <li>Responsive Mobile</li>
+          <li>Project  Management</li>
+          <li>UI/UX Design</li>
+        </ul>
+        <div class="fr"><br />
+          <a href="https://pointclickcare.com/" class="large blue awesome" target="_blank">View Website &raquo;</a></div>
+        <div class="clear"></div>
+      </div>
+    </div>
+
+  <div class="fl pad_ten">
+      <div class="gallery_img"><a href="#info15" rel="facybox"><img src="/img/gallery/cibc.jpg" width="290" height="170" alt="CIBC" /></a></div>
       <div class="min_spacer"></div>
       <strong>CIBC: </strong>Online Banking Site</div>
     <div id="info15" style="display:none;">
-      <div class="more_info black"> <img src="/img/gallery/large/cibc.jpg" width="700" height="420" alt="Locktalk" />
+      <div class="more_info black"> <img src="/img/gallery/large/cibc.jpg" width="700" height="420" alt="CIBC" />
         <div class="top_shadow"></div>
         <h4 class="blue a_black">CIBC : Online Banking Site</h4>
         <div class="min_spacer"></div>
@@ -42,7 +70,7 @@
           <li>UI/UX Design</li>
         </ul>
         <div class="fr"><br />
-          <a href="#" class="large blue awesome" target="_blank">In Private Beta</a></div>
+          <a href="https://www.cibc.com/" class="large blue awesome" target="_blank">View Website &raquo;</a></div>
         <div class="clear"></div>
       </div>
     </div>
@@ -293,7 +321,7 @@
         <div class="gallery_img"><a href="#info10" rel="facybox"><img src="/img/gallery/levana.jpg" width="290" height="170" alt="Levana" /></a></div>
         <div class="min_spacer"></div>
         <strong>Mylevana: </strong>Ecommerce Site </div>
-      	<div id="info10" style="display:none;">
+        <div id="info10" style="display:none;">
         <div class="more_info black"> <img src="/img/gallery/large/levana.jpg" width="700" height="420" alt="Defender" />
           <div class="top_shadow"></div>
           <h4 class="blue a_black">Mylevana : Ecommerce Site</h4>
@@ -534,40 +562,40 @@ pageTracker._trackPageview();
 
 
 <script type="text/javascript">
-$(document).ready(function(){	
+$(document).ready(function(){ 
    // facybox
    $('a[rel*=facybox]').facybox({
-		// noAutoload: true
-	 });
-	 $("h2",$("#changelog")).css("cursor","pointer").click(function(){
-		 $(this).next().slideToggle('fast');
-	 }).trigger("click");
-	 // tool tip
-	 $("a").easyTooltip();
-	 // contact form validation
-	 $("#contactform").validate();
-	 // choose text for the show/hide link
-	var showText="View More Projects";
-	var hideText ="Hide Projects";	
-	// create the toggle link
-	$(".expandable").before("<p><a href='#' id='toggle_link' class='grey'>"+showText+"</a>");	
-	// hide the content
-	$('.expandable').hide()	
-	// capture clicks on the newly created link
-	$('a#toggle_link').click(function() {	
-	// change the link text
-	if ($('a#toggle_link').text()==showText) {
-	$('a#toggle_link').text(hideText);
-	}
-	else {
-	$('a#toggle_link').text(showText);
-	}	
-	// toggle the display
-	$('.expandable').toggle('slow');	
-	// return false so any link destination is not followed
-	return false;
-	});
-	
+    // noAutoload: true
+   });
+   $("h2",$("#changelog")).css("cursor","pointer").click(function(){
+     $(this).next().slideToggle('fast');
+   }).trigger("click");
+   // tool tip
+   $("a").easyTooltip();
+   // contact form validation
+   $("#contactform").validate();
+   // choose text for the show/hide link
+  var showText="View More Projects";
+  var hideText ="Hide Projects";  
+  // create the toggle link
+  $(".expandable").before("<p><a href='#' id='toggle_link' class='grey'>"+showText+"</a>"); 
+  // hide the content
+  $('.expandable').hide() 
+  // capture clicks on the newly created link
+  $('a#toggle_link').click(function() { 
+  // change the link text
+  if ($('a#toggle_link').text()==showText) {
+  $('a#toggle_link').text(hideText);
+  }
+  else {
+  $('a#toggle_link').text(showText);
+  } 
+  // toggle the display
+  $('.expandable').toggle('slow');  
+  // return false so any link destination is not followed
+  return false;
+  });
+  
 });
 </script>
 

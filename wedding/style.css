@@ -1,20 +1,32 @@
-body,h2{font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-p {line-height: 2}
+body,h2{
+    font-family: "Raleway", sans-serif
+}
+body, html {
+    height: 100%
+}
+p {
+    line-height: 2
+}
 .bgimg, .bgimg2 {
     min-height: 100%;
     background-position: center;
     background-size: cover;
 }
-.bgimg {background-image: url("hero.jpg")}
-.bgimg2 {background-image: url("flowers.jpg")}
+.bgimg {
+    background-image: url("hero.jpg")
+}
+.bgimg2 {
+    background-image: url("flowers.jpg")
+}
 h1.names {
     text-shadow: 0 0 40px rgba(0,0,0,.25);
     margin: 0;
     font-size: 5.5rem;
     line-height: 7rem;
     color: #fff;
-    /*letter-spacing: 5px;*/
     font-family: 'Great Vibes', cursive;
     font-weight: normal;
+}
+h1.w3-text-grey {
+    font-family: 'Great Vibes', cursive;
 }
